@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+}
+
+#todoList li {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+#todoList li button {
+  margin-left: 10px;
+}
+
+.post-it {
+  width: 200px;
+  background-color: yellow;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px 0;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  font-family: 'Arial', sans-serif;
+  display: inline-block;
+}
