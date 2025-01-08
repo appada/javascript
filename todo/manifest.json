@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Simple TODO List",
+  "version": "1.0",
+  "description": "할일 확장 프로그램",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
